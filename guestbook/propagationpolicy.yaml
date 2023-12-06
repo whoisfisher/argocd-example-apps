@@ -7,7 +7,7 @@ spec:
     application:
       decisionConditions:
         tolerationSeconds: 30
-        gracePeriodSeconds: 30
+      gracePeriodSeconds: 30
       purgeMode: Never
   resourceSelectors:
     - apiVersion: apps/v1
